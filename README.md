@@ -1,1 +1,1 @@
-# func-log-pro
+# Functional and Logical Programming in Prolog
