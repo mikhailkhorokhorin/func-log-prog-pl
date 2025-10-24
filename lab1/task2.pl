@@ -224,7 +224,7 @@ print_max_avgerage_in_group(Group) :-
     format('Group: ~w - Highest average grade: ~2f~n', [Group, MaxAvg]),
     format('Students: ~w~n~n', [TopStudents]).
 
-    % Реализация предиката вывода студента (студентов) с максимальным средним баллом для каждой из групп:
+% Реализация предиката вывода студента (студентов) с максимальным средним баллом для каждой из групп:
 print_group_max_average :-
     findall(Group, grade(Group, _, _, _), Groups),
     sort(Groups, UniqueGroups),
