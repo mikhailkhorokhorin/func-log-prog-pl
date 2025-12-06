@@ -74,7 +74,7 @@ print_path([H|T]) :- print_state(H), print_path(T).
 
 
 % Реализация основного предиката решения
-start :-
+solve :-
     Start = [b,b,b,b,'_',w,w,w],
     Goal  = [w,w,w,'_',b,b,b,b],
 

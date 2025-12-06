@@ -194,7 +194,6 @@ print_studens_summary :-
             format('~w: Average grade = ~2f, Status = ~w~n', [S, Avg, Status])
         )).
 
-
 % Реализация предиката подсчета количества студентов, не сдавших предмет:
 subject_failed_count(Subject, Count) :-
     findall(Student, (grade(_, Student, Subject, Grade), Grade < 4), Failed),
