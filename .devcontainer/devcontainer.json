@@ -1,0 +1,14 @@
+{
+    "name": "F# & Prolog",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Ionide.Ionide-fsharp",
+                "arthurwang.vsc-prolog"
+            ]
+        }
+    }
+}

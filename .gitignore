@@ -1,0 +1,6 @@
+bin/
+obj/
+*.user
+.ionide/
+*.qlf
+.cache/
